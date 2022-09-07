@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>table, tr, th, td {border: 1px solid;} </style>
+</head>
+<body>
+    <!-- ******************************************************************************************* -->
+    <h3>1. Create a static webpage using table tags of HTML.</h3>
+    <table>
+        <tr>
+          <th>Countries</th>
+          <th>Capitals</th>
+          <th>Population</th>
+          <th>Language</th>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>Washington, D.C.</td>
+          <td>309 million</td>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td>Sweden</td>
+          <td>Stockholm</td>
+          <td>9 million</td>
+          <td>Swedish</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>Delhi</td>
+            <td>1.3 billion</td>
+            <td>Hindi</td>
+          </tr>
+    </table>
+    
+    <!-- ******************************************************************************************* -->
+    <h3>2. Create a static web page that defines all text formatting tags of HTML in tabular format.</h3>
+      <table>
+        <tr>
+          <th>Tags</th>
+          <th>Definition</th>
+          <th>Usecase</th>
+        </tr>
+        <tr>
+          <td>< b ></td>
+          <td>Defines bold text</td>
+          <td><b>Bold text</b></td>
+        </tr>
+        <tr>
+          <td>< em ></td>
+          <td>Defines emphasized text</td>
+          <td><em>Emphasized text</em></td>
+        </tr>
+        <tr>
+            <td>< i ></td>
+            <td>Defines italic text</td>
+            <td><i>Italic text</i></td>
+        </tr>
+        <tr>
+            <td>< small ></td>
+            <td>Defines smaller text</td>
+            <td><small>Small text</small></td>
+        </tr>
+        <tr>
+            <td>< strong ></td>
+            <td>Defines important text</td>
+            <td><strong>Strong text</strong></td>
+        </tr>
+        <tr>
+            <td>< sub ></td>
+            <td>Defines subscripted text</td>
+            <td><sub>Subscripted text</sub></td>
+        </tr>
+        <tr>
+            <td>< sup ></td>
+            <td>Defines superscripted text</td>
+            <td><sup>Superscripted text</sup></td>
+        </tr>
+        <tr>
+            <td>< ins ></td>
+            <td>Defines inserted text</td>
+            <td><ins>Inserted text</ins></td>
+        </tr>
+        <tr>
+            <td>< del ></td>
+            <td>Defines deleted text</td>
+            <td><del>Deleted text</del></td>
+        </tr>
+        <tr>
+            <td>< mark ></td>
+            <td>Defines marked text</td>
+            <td><mark>Marked text</mark></td>
+        </tr>
+    </table>
+
+    <!-- ******************************************************************************************* -->
+    <h3>3. Create a webpage using list tags of HTML.</h3>
+    <h4>Unordered list</h4>
+    <ul>
+        <li>Data Structures & Algorithm</li>
+        <li>Web Technology</li>
+        <li>Aptitude & Logical Reasoning</li>
+        <li>Programming Languages</li>
+    </ul>
+    <h4>Ordered list</h4>
+    <ol>
+        <li>Array</li>
+        <li>Linked List</li>
+        <li>Stacks</li>
+        <li>Queues</li>
+        <li>Trees</li>
+        <li>Graphs</li>
+    </ol>
+    <h4>A Description List</h4>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- 500 gms</dd>
+        <dt>Milk</dt>
+        <dd>- 1 ltr Tetra Pack</dd>
+    </dl>
+    
+    <!-- ******************************************************************************************* -->
+    <h3>4. Create a webpage to include images using HTML tag.</h3>
+
+    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=4000&hei=2200&scl=0.752"
+        alt="nature image" width="300" height="auto">
+
+
+    <!-- ******************************************************************************************* -->
+    <h3>5. Create an employee registration webpage using HTML form objects.</h3>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" required> <br> <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email"required> <br> <br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" required> <br> <br>
+
+        <label>   
+            Course :  
+        </label>   
+        <select>  
+            <option value="Course">Select course</option>   
+            <option value="B.Tech">B.Tech</option>  
+            <option value="M.Tech">M.Tech</option>  
+            <option value="MBA">MBA</option>  
+        </select> <br> <br>
+
+        <label for="gender">Gender : </label> <br>
+        <input type="radio" name="male"> Male <br>  
+        <input type="radio" name="female"> Female <br>  
+        <input type="radio" name="other"> Other  <br> <br>
+
+        <label for="phone"> Phone </label>
+        <input type="text" name="country code"  value="+91" size="2">   
+        <input type="text" name="phone" size="10" required> <br> <br>
+
+        <label for="address">Address</label> <br>
+        <textarea name="address" id="add" cols="30" rows="5" value="Address"></textarea> <br> <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
